@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "blocking_trading",
+    "description": "blocking_trading",
+    "uuid": "1c62b282-9b12-49d3-b19f-3b12f14c1c64",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "1e0413c7-3fb1-44dc-87cc-3da070d244b3",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    }
+  ]
+}
